@@ -1,0 +1,10 @@
+.images {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.images > img {
+    width: 40%;
+    height: fit-content;
+    margin: 3%;
+}
