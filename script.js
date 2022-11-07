@@ -4,9 +4,11 @@ var source;
 
 function view(image) {
     document.getElementById("largeImage").style.display = "block";
+    document.getElementById("next_arrow").style.display = "block";
+    document.getElementById("prev_arrow").style.display = "block";
+    document.getElementById("close_button").style.display = "block";
     source = image.src;
     document.getElementById("largeImage").src = source;
-    console.log(source);
 }
 
 function hover(image) {
