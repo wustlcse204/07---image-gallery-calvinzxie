@@ -54,3 +54,13 @@
     height: auto;
     margin-top: -40px;
 }
+
+.x {
+    position: fixed;
+    top: 5%;
+    right: 4%;
+}
+
+#x_icon {
+    max-width: 50px;
+}

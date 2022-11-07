@@ -32,3 +32,7 @@ function previous() {
     var x = document.getElementById("largeImage").src;
     document.getElementById("largeImage").src = slideshow[slideshowIndex];
 }
+
+function closeImage() {
+    document.getElementById("largeImage").style.display = "none";
+}
