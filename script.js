@@ -6,5 +6,12 @@ function view(image) {
     var source = image.src;
     var image = document.getElementById("largeImage");
     image.src = source;
+}
 
+function hover(image) {
+    image.style.transform = "scale(1.2)";
+}
+
+function normal(image) {
+    image.style.transform = "scale(1)";
 }
