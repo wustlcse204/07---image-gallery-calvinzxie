@@ -1,12 +1,36 @@
+.title {
+    position: absolute;
+
+}
+
+
 .images {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 200px;
 }
 
-.images > img {
+.images img {
     max-width: 420px;
     max-height: 420px;
     height: fit-content;
-    margin: 20px;
+    margin: 30px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 1500px;
+}
+
+.images img:hover {
+    transform: scale(1.2);
+}
+
+.largeimg img {
+    display: none;
+    min-height: 70%;
+    min-height: 70%;
+
 }

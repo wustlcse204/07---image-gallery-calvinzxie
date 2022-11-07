@@ -5,28 +5,40 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 
     <title> Image Gallery </title>
+
+    <script src="script.js"> </script>
 </head>
 
 <body>
 
-    <div class="title"></div>
+    <div class="title"> San Francisco </div>
 
     <div class="images">
-        <img src="images/baybridge.jpg" alt="img1" id="img1">
-        <img src="images/fidi.jpg" alt="img2">
-        <img src="images/fishermanswharf.jpg" alt="img3">
-        <img src="images/ggb.jpg" alt="img4">
-        <img src="images/ggb2.jpg" alt="img5">
-        <img src="images/ggb3.jpg" alt="img6">
-        <img src="images/treasureisland.jpg" alt="img7">
-        <img src="images/lombardstreet.jpg" alt="img8">
-        <img src="images/pofa.jpg" alt="img9">
-        <img src="images/sf.jpg" alt="img10">
-        <img src="images/sf2.jpg" alt="img11">
-        <img src="images/transamericapyramid.jpg" alt="img12">
+        <div class="row">
+            <img src="images/baybridge.jpg" alt="img1" id="img1" onclick="view(this)"> 
+            <img src="images/fidi.jpg" alt="img2">
+            <img src="images/fishermanswharf.jpg" alt="img3">
+        </div>
+        <div class="row">
+            <img src="images/ggb.jpg" alt="img4">
+            <img src="images/ggb2.jpg" alt="img5">
+            <img src="images/ggb3.jpg" alt="img6">
+        </div>
+        <div class="row">
+            <img src="images/treasureisland.jpg" alt="img7">
+            <img src="images/lombardstreet.jpg" alt="img8">
+            <img src="images/pofa.jpg" alt="img9">
+        </div>
+        <div class="row">
+            <img src="images/sf.jpg" alt="img10">
+            <img src="images/sf2.jpg" alt="img11">
+            <img src="images/transamericapyramid.jpg" alt="img12">
+        </div>
 
+        <div class="largeimg">
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="largeimg" id="largeimg">
+        </div>
 
-        <script src="script.js"> </script>
     </div>
 
 </body>
