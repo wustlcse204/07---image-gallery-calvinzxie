@@ -7,7 +7,6 @@ function view(image) {
     document.getElementById("next_arrow").style.display = "block";
     document.getElementById("prev_arrow").style.display = "block";
     document.getElementById("close_button").style.display = "block";
-    document.getElementById("images").addClass('no-hover');
     source = image.src;
     document.getElementById("largeImage").src = source;
     slideshowIndex = source.charAt(source.length-5)-1;
