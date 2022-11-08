@@ -7,6 +7,7 @@ function view(image) {
     document.getElementById("next_arrow").style.display = "block";
     document.getElementById("prev_arrow").style.display = "block";
     document.getElementById("close_button").style.display = "block";
+    document.getElementById("images").addClass('no-hover');
     source = image.src;
     document.getElementById("largeImage").src = source;
     slideshowIndex = source.charAt(source.length-5)-1;
@@ -17,7 +18,7 @@ function next() {
     slideshowIndex = Math.abs(slideshowIndex);
     slideshowIndex = slideshowIndex % slideshow.length;
     document.getElementById("largeImage").src = slideshow[slideshowIndex];
-}
+} 
 
 function previous() {
     if (slideshowIndex>0) {
